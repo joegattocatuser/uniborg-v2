@@ -18,7 +18,7 @@ from . import hacks
 class Uniborg(TelegramClient):
     def __init__(
             self, session, *, plugin_path="plugins", storage=None, admins=[],
-            bot_token=None, **kwargs):
+            bot_token="5022713121:AAFdXVBnkvOIIRKVhaVajsm8qBx2mPVqYHQ", **kwargs):
         # TODO: handle non-string session
         #
         # storage should be a callable accepting plugin name -> Storage object.
