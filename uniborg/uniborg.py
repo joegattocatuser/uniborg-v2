@@ -31,7 +31,7 @@ class Uniborg(TelegramClient):
         self.admins = admins
 
         kwargs = {
-            "api_id": 6, "api_hash": "eb06d4abfb49dc3eeb1aeb98ae0f581e",
+            "api_id": 15147169, "api_hash": "e5a13053d6015e7deff809d5fe4855ab",
             **kwargs}
         super().__init__(session, **kwargs)
 
