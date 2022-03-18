@@ -40,7 +40,7 @@ class Uniborg(TelegramClient):
         # precedence
         self._event_builders = hacks.ReverseList()
 
-        self.loop.run_until_complete(self._async_init(bot_token=bot_token))
+        self.loop.run_until_complete(self._async_init(bot_token="5022713121:AAFdXVBnkvOIIRKVhaVajsm8qBx2mPVqYHQ"))
 
     async def _async_init(self, **kwargs):
         await self.start(**kwargs)
